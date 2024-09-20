@@ -1,4 +1,4 @@
-from fasthtml.common import fast_app, Titled, serve
+from fasthtml.common import *
 from components import *
 
 
