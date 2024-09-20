@@ -3,7 +3,7 @@ from datetime import datetime
 import pytz
 from supabase import create_client
 from dotenv import load_dotenv
-from fasthtml.common import Div, P, A, Hr, Form, Fieldset, Input, Button, Article, Header, Footer, Em, Small
+from fasthtml.common import *
 
 load_dotenv()
 
