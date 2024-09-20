@@ -1,5 +1,5 @@
 from fasthtml.common import fast_app, Titled, serve
-from components import add_message, render_content, render_message_list
+from components import add_message, render_content, render_message_list, render_message
 
 
 app, routes = fast_app()
