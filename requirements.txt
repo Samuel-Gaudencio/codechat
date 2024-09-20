@@ -1,0 +1,4 @@
+python-dotenv==1.0.1
+python_fasthtml==0.5.3
+pytz==2024.1
+supabase==2.7.4
