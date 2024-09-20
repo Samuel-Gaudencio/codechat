@@ -29,7 +29,7 @@ SUPABASE_KEY=<sua_chave_supabase>
    ```bash
    git clone https://github.com/seu_usuario/codechat.git
    cd codechat
-   ```
+  ```
 2. Instale as dependências:
   ```bash
    pip install -r requirements.txt
