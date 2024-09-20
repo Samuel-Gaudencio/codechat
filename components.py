@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
 import pytz
-from supabase import create_client
+from supabase import create_client, Client
 from dotenv import load_dotenv
 from fasthtml.common import *
 
@@ -9,8 +9,7 @@ load_dotenv()
 
 TIMESTAMP_FMT = "%Y-%m-%d %H:%M:%S %p UTC-3"
 
-supabase = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
-
+supabase: Client = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
 
 
 def render_form():
