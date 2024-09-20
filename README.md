@@ -1,6 +1,6 @@
 # CodeChat 💬
 
-CodeChat é uma aplicação web simples que permite aos usuários enviar mensagens em uma conversa aberta sobre tecnologia. Utiliza FastHTML para renderização de páginas e Supabase para armazenar as mensagens.
+CodeChat é uma aplicação web simples que permite aos usuários enviar e visualizar mensagens em uma conversa aberta sobre tecnologia. A aplicação utiliza FastHTML para renderização de páginas e Supabase como banco de dados para armazenar as mensagens.
 
 ## Tecnologias Utilizadas
 
@@ -29,6 +29,7 @@ SUPABASE_KEY=<sua_chave_supabase>
    ```bash
    git clone https://github.com/seu_usuario/codechat.git
    cd codechat
+   ```
 2. Instale as dependências:
   ```bash
    pip install -r requirements.txt
@@ -46,4 +47,4 @@ SUPABASE_KEY=<sua_chave_supabase>
 - .env: Arquivo de configuração para variáveis sensíveis.
 
 ## Contato
-Feito por Samuel Siqueira - Sinta-se à vontade para entrar em contato para qualquer dúvida ou sugestão!
+Feito por <a href="https://www.linkedin.com/in/samuel-siqueirapy/">Samuel Siqueira</a> - Sinta-se à vontade para entrar em contato para qualquer dúvida ou sugestão!
