@@ -1,10 +1,8 @@
-from fasthtml.common import fast_app, Titled, serve, Link
+from fasthtml.common import fast_app, Titled, serve
 from components import add_message, render_content, render_message_list
 
 
-app, routes = fast_app(
-    hdrs=(Link(rel="icon", type="assets/x-icon", href="/blog/assets/favicon.png"),)
-)
+app, routes = fast_app()
 
 
 @routes("/")
