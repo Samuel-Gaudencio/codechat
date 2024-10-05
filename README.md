@@ -27,7 +27,7 @@ SUPABASE_KEY=<sua_chave_supabase>
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu_usuario/codechat.git
+   git clone https://github.com/Samuel-Gaudencio/codechat.git
    cd codechat
    ```
 2. Instale as dependências:
